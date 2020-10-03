@@ -1,4 +1,3 @@
-// Generate README with structure and markdown based on the user inputs
 function generateMarkdown({ userName, theEmail, projectTitle, projectDescription, projectImg, projectInstall, projectRun, projectRunTest, projectInformation, projectLicense, avatarURL }) {
     projectTitleDashed = projectTitle.replace(/\s+/g, '-');
     return `
@@ -60,5 +59,5 @@ function generateMarkdown({ userName, theEmail, projectTitle, projectDescription
     `
   }
   
-  // Parse the markdown README
+
   module.exports = generateMarkdown;
