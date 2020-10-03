@@ -53,4 +53,4 @@ Please contact me using one of the following:
 
 - Github: [hilaryvalenciawalsh](https://gist.github.com/hilaryvalenciawalsh)  [<img src="https://avatars1.githubusercontent.com/u/67081309?v=4" height="50" width="50" alt="hilaryvalenciawalsh"/>](https://gist.github.com/hilaryvalenciawalsh) 
 
-- Email: hilaryvalenciawalsh@gmail.com;
+- Email: hilaryvalenciawalsh@gmail.com
