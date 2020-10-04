@@ -1,8 +1,9 @@
 generateMarkdown = require("./generateMarkdown.js");
 
 const fs = require("fs");
-const inquirer = require("inquirer");
 const axios = require("axios");
+const inquirer = require("inquirer");
+
 
 function userInfo(userName) {
   return axios.get(`https://api.github.com/users/${userName}`).catch((err) => {

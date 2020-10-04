@@ -1,4 +1,3 @@
-
 function generateMarkdown({
   userName,
   theEmail,
