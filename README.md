@@ -25,7 +25,7 @@ This is a README generator that uses node.js to create unique readme files based
 - [Additional Information](#additional-information)
 - [License](#license)
 - [Contributing](#contributing)
-- [Questions and Feedback](#questions-and-feedback)
+- [Questions](#questions)
 
 ## Screenshots
 <img src="screenshot.png" alt="readMe-generator"/>
