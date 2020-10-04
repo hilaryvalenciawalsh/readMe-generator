@@ -13,7 +13,7 @@
     # Generate ReadMe.md File
 
     ## Description
-    This application uses node.js to create unique readme.md files using the data the user inputs.
+    This application uses node.js to create unique user inputed information into a formatted readme.md file.
 
     ## Table of Contents
     - [Title](#title)
@@ -48,10 +48,11 @@
    
     ## Contributing
     This is the code of conduct, and the process for pull requests.
+    
     ## Questions
     Please contact me using one of the following:
     
     - Github: [hilaryvalenciawalsh](https://gist.github.com/hilaryvalenciawalsh)  [<img src="https://avatars1.githubusercontent.com/u/67081309?v=4" height="50" width="50" alt="hilaryvalenciawalsh"/>](https://gist.github.com/hilaryvalenciawalsh) 
     
-    - Email: hilaryvalenciawalsh@gmail.com
+    - Email: hilaryvalenciawalsh@gmail.com;
     

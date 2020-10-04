@@ -1,7 +1,18 @@
-// Generate README with structure and markdown based on the user inputs
-function generateMarkdown({ userName, theEmail, projectTitle, projectDescription, projectImg, projectInstall, projectRun, projectRunTest, projectInformation, projectLicense, avatarURL }) {
-    projectTitleDashed = projectTitle.replace(/\s+/g, '-');
-    return `
+function generateMarkdown({
+  userName,
+  theEmail,
+  projectTitle,
+  projectDescription,
+  projectImg,
+  projectInstall,
+  projectRun,
+  projectRunTest,
+  projectInformation,
+  projectLicense,
+  avatarURL
+}) {
+  projectTitleDashed = projectTitle.replace(/\s+/g, '-');
+  return `
     [contributors-shield]: https://img.shields.io/github/contributors/${userName}/${projectTitleDashed}.svg?style=flat-square
     [contributors-url]: https://github.com/${userName}/${projectTitleDashed}/graphs/contributors
     [forks-shield]: https://img.shields.io/github/forks/${userName}/${projectTitleDashed}.svg?style=flat-square
@@ -51,14 +62,13 @@ function generateMarkdown({ userName, theEmail, projectTitle, projectDescription
    
     ## Contributing
     This is the code of conduct, and the process for pull requests.
+    
     ## Questions
     Please contact me using one of the following:
     
     - Github: [${userName}](https://gist.github.com/${userName})  [<img src="${avatarURL}" height="50" width="50" alt="${userName}"/>](https://gist.github.com/${userName}) 
     
-    - Email: ${theEmail}
+    - Email: ${theEmail};
     `
-  }
-  
-  // Parse the markdown README
-  module.exports = generateMarkdown;
+}
+module.exports = generateMarkdown;
