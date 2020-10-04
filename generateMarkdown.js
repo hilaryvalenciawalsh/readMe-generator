@@ -1,3 +1,4 @@
+
 function generateMarkdown({
   userName,
   theEmail,
@@ -13,6 +14,7 @@ function generateMarkdown({
 }) {
   projectTitleDashed = projectTitle.replace(/\s+/g, '-');
   return `
+
     [contributors-shield]: https://img.shields.io/github/contributors/${userName}/${projectTitleDashed}.svg?style=flat-square
     [contributors-url]: https://github.com/${userName}/${projectTitleDashed}/graphs/contributors
     [forks-shield]: https://img.shields.io/github/forks/${userName}/${projectTitleDashed}.svg?style=flat-square
