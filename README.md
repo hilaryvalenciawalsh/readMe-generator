@@ -1,5 +1,3 @@
-
-
     [contributors-shield]: https://img.shields.io/github/contributors/hilaryvalenciawalsh/readMe-generator.svg?style=flat-square
     [contributors-url]: https://github.com/hilaryvalenciawalsh/readMe-generator/graphs/contributors
     [forks-shield]: https://img.shields.io/github/forks/hilaryvalenciawalsh/readMe-generator.svg?style=flat-square
